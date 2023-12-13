@@ -25,10 +25,11 @@ public:
 
 public slots:
     void start();
-    QVector<int> boyerMooreSearch(const QString &text, const QString &pattern);
 
 private:
     Ui::Form *ui;
 };
+
+QVector<int> boyerMooreSearch(const QString &text, const QString &pattern);
 
 #endif // FORM_H

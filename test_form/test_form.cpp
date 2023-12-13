@@ -19,7 +19,7 @@ void test_form::testBoyerMooreSearch() {
     QFETCH(QVector<int>, expectedResult);
 
     Form form;
-    QVector<int> result = form.boyerMooreSearch(text, pattern);
+    QVector<int> result = boyerMooreSearch(text, pattern);
 
     QCOMPARE(result, expectedResult);
 }

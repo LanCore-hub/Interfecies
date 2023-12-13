@@ -9,12 +9,10 @@ CONFIG += c++17 cmdline
 
 SOURCES += \
         ../src/form.cpp \
-        ../src/mycode.cpp \
         test_form.cpp
 
 HEADERS += \
     ../src/form.h \
-    ../src/mycode.h \
     test_form.h
 
 FORMS += \
